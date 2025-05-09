@@ -1,0 +1,118 @@
+2025-05-09 14:37:15,809 - INFO - [USER_FETCH_START] User data fetch started at 14:37:15
+2025-05-09 14:37:15,809 - INFO - [USER_CACHE_MISS] No cache found. Fetching from DB
+2025-05-09 14:37:15,809 - INFO - Data fetch started from Database
+2025-05-09 14:37:33,651 - INFO - Data fetch and saved to cache completed in 17.842 seconds
+2025-05-09 14:37:34,774 - INFO - [USER_FETCH_TIME] Data fetched in 18.9652 seconds
+2025-05-09 14:37:34,887 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 14:37:34
+2025-05-09 14:37:34,903 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=100 "HTTP/1.1 200 OK"
+2025-05-09 14:37:34,906 - INFO - HTTP Request: GET http://testserver/users/fetch-all/ "HTTP/1.1 307 Temporary Redirect"
+2025-05-09 14:37:34,907 - INFO - [USER_FETCH_START] User data fetch started at 14:37:34
+2025-05-09 14:37:34,907 - INFO - [USER_CACHE_HIT] Returning users from cache
+2025-05-09 14:37:35,916 - INFO - [USER_FETCH_TIME] Data fetched in 1.0091 seconds
+2025-05-09 14:37:36,032 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 14:37:36
+2025-05-09 14:37:36,034 - INFO - HTTP Request: GET http://testserver/users/fetch-all "HTTP/1.1 200 OK"
+2025-05-09 14:37:36,141 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=ABC&page_size=ABC "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:37:36,146 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=ABC&page_size=10 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:37:36,151 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=-1&page_size=-10 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:37:36,156 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=10000 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:39:15,927 - INFO - [USER_FETCH_START] User data fetch started at 14:39:15
+2025-05-09 14:39:15,928 - INFO - [USER_CACHE_MISS] No cache found. Fetching from DB
+2025-05-09 14:39:15,928 - INFO - Data fetch started from Database
+2025-05-09 14:39:34,589 - INFO - Data fetch and saved to cache completed in 18.661 seconds
+2025-05-09 14:39:35,880 - INFO - [USER_FETCH_TIME] Data fetched in 19.9526 seconds
+2025-05-09 14:39:36,061 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 14:39:36
+2025-05-09 14:39:36,091 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=100 "HTTP/1.1 200 OK"
+2025-05-09 14:39:36,099 - INFO - HTTP Request: GET http://testserver/users/fetch-all/ "HTTP/1.1 307 Temporary Redirect"
+2025-05-09 14:39:36,102 - INFO - [USER_FETCH_START] User data fetch started at 14:39:36
+2025-05-09 14:39:36,102 - INFO - [USER_CACHE_HIT] Returning users from cache
+2025-05-09 14:39:37,227 - INFO - [USER_FETCH_TIME] Data fetched in 1.1247 seconds
+2025-05-09 14:39:37,355 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 14:39:37
+2025-05-09 14:39:37,357 - INFO - HTTP Request: GET http://testserver/users/fetch-all "HTTP/1.1 200 OK"
+2025-05-09 14:39:37,465 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=ABC "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:39:37,468 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=ABC&page_size=100 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:39:37,470 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=10000 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:39:37,474 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=-1&page_size=-10 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:40:01,048 - INFO - [USER_FETCH_START] User data fetch started at 14:40:01
+2025-05-09 14:40:01,049 - INFO - [USER_CACHE_MISS] No cache found. Fetching from DB
+2025-05-09 14:40:01,049 - INFO - Data fetch started from Database
+2025-05-09 14:40:19,093 - INFO - Data fetch and saved to cache completed in 18.044 seconds
+2025-05-09 14:40:20,274 - INFO - [USER_FETCH_TIME] Data fetched in 19.2256 seconds
+2025-05-09 14:40:20,397 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 14:40:20
+2025-05-09 14:40:20,418 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=100 "HTTP/1.1 200 OK"
+2025-05-09 14:40:20,421 - INFO - HTTP Request: GET http://testserver/users/fetch-all/ "HTTP/1.1 307 Temporary Redirect"
+2025-05-09 14:40:20,422 - INFO - [USER_FETCH_START] User data fetch started at 14:40:20
+2025-05-09 14:40:20,422 - INFO - [USER_CACHE_HIT] Returning users from cache
+2025-05-09 14:40:21,551 - INFO - [USER_FETCH_TIME] Data fetched in 1.1284 seconds
+2025-05-09 14:40:21,689 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 14:40:21
+2025-05-09 14:40:21,691 - INFO - HTTP Request: GET http://testserver/users/fetch-all "HTTP/1.1 200 OK"
+2025-05-09 14:40:21,804 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=ABC&page_size=ABC "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:40:21,810 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=ABC&page_size=10 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:40:21,816 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=-1&page_size=-10 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:40:21,822 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=10000 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:42:53,669 - INFO - [USER_FETCH_START] User data fetch started at 14:42:53
+2025-05-09 14:42:53,669 - INFO - [USER_CACHE_MISS] No cache found. Fetching from DB
+2025-05-09 14:42:53,669 - INFO - Data fetch started from Database
+2025-05-09 14:43:11,530 - INFO - Data fetch and saved to cache completed in 17.861 seconds
+2025-05-09 14:43:12,826 - INFO - [USER_FETCH_TIME] Data fetched in 19.1566 seconds
+2025-05-09 14:43:12,965 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 14:43:12
+2025-05-09 14:43:12,994 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=100 "HTTP/1.1 200 OK"
+2025-05-09 14:43:12,997 - INFO - HTTP Request: GET http://testserver/users/fetch-all/ "HTTP/1.1 307 Temporary Redirect"
+2025-05-09 14:43:12,998 - INFO - [USER_FETCH_START] User data fetch started at 14:43:12
+2025-05-09 14:43:12,998 - INFO - [USER_CACHE_HIT] Returning users from cache
+2025-05-09 14:43:14,132 - INFO - [USER_FETCH_TIME] Data fetched in 1.1333 seconds
+2025-05-09 14:43:14,279 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 14:43:14
+2025-05-09 14:43:14,281 - INFO - HTTP Request: GET http://testserver/users/fetch-all "HTTP/1.1 200 OK"
+2025-05-09 14:43:14,396 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=ABC&page_size=ABC "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:43:14,403 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=ABC&page_size=10 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:43:14,409 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=-1&page_size=-10 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 14:43:14,414 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=10000 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 15:04:14,982 - INFO - [USER_FETCH_START] User data fetch started at 15:04:14
+2025-05-09 15:04:14,982 - INFO - [USER_CACHE_MISS] No cache found. Fetching from DB
+2025-05-09 15:04:14,982 - INFO - Data fetch started from Database
+2025-05-09 15:04:33,670 - INFO - Data fetch and saved to cache completed in 18.688 seconds
+2025-05-09 15:04:35,056 - INFO - [USER_FETCH_TIME] Data fetched in 20.0740 seconds
+2025-05-09 15:04:35,203 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 15:04:35
+2025-05-09 15:04:35,224 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=100 "HTTP/1.1 200 OK"
+2025-05-09 15:04:35,227 - INFO - HTTP Request: GET http://testserver/users/fetch-all/ "HTTP/1.1 307 Temporary Redirect"
+2025-05-09 15:04:35,228 - INFO - [USER_FETCH_START] User data fetch started at 15:04:35
+2025-05-09 15:04:35,229 - INFO - [USER_CACHE_HIT] Returning users from cache
+2025-05-09 15:04:36,312 - INFO - [USER_FETCH_TIME] Data fetched in 1.0830 seconds
+2025-05-09 15:04:36,438 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 15:04:36
+2025-05-09 15:04:36,440 - INFO - HTTP Request: GET http://testserver/users/fetch-all "HTTP/1.1 200 OK"
+2025-05-09 15:04:36,553 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=ABC&page_size=ABC "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 15:04:36,556 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=ABC&page_size=10 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 15:04:36,560 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=-1&page_size=-10 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 15:04:36,563 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=10000 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 15:08:14,079 - INFO - [USER_FETCH_START] User data fetch started at 15:08:14
+2025-05-09 15:08:14,079 - INFO - [USER_CACHE_MISS] No cache found. Fetching from DB
+2025-05-09 15:08:14,079 - INFO - Data fetch started from Database
+2025-05-09 15:08:32,010 - INFO - Data fetch and saved to cache completed in 17.931 seconds
+2025-05-09 15:08:33,264 - INFO - [USER_FETCH_TIME] Data fetched in 19.1848 seconds
+2025-05-09 15:08:33,390 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 15:08:33
+2025-05-09 15:08:33,408 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=100 "HTTP/1.1 200 OK"
+2025-05-09 15:08:33,411 - INFO - HTTP Request: GET http://testserver/users/fetch-all/ "HTTP/1.1 307 Temporary Redirect"
+2025-05-09 15:08:33,412 - INFO - [USER_FETCH_START] User data fetch started at 15:08:33
+2025-05-09 15:08:33,413 - INFO - [USER_CACHE_HIT] Returning users from cache
+2025-05-09 15:08:34,505 - INFO - [USER_FETCH_TIME] Data fetched in 1.0923 seconds
+2025-05-09 15:08:34,630 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 15:08:34
+2025-05-09 15:08:34,632 - INFO - HTTP Request: GET http://testserver/users/fetch-all "HTTP/1.1 200 OK"
+2025-05-09 15:08:34,751 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=ABC&page_size=XYZ "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 15:08:34,754 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=-1&page_size=-10 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 15:08:34,757 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=10000 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 15:09:02,932 - INFO - [USER_FETCH_START] User data fetch started at 15:09:02
+2025-05-09 15:09:02,932 - INFO - [USER_CACHE_MISS] No cache found. Fetching from DB
+2025-05-09 15:09:02,932 - INFO - Data fetch started from Database
+2025-05-09 15:09:22,371 - INFO - Data fetch and saved to cache completed in 19.439 seconds
+2025-05-09 15:09:23,615 - INFO - [USER_FETCH_TIME] Data fetched in 20.6835 seconds
+2025-05-09 15:09:23,735 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 15:09:23
+2025-05-09 15:09:23,757 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=100 "HTTP/1.1 200 OK"
+2025-05-09 15:09:23,761 - INFO - HTTP Request: GET http://testserver/users/fetch-all/ "HTTP/1.1 307 Temporary Redirect"
+2025-05-09 15:09:23,762 - INFO - [USER_FETCH_START] User data fetch started at 15:09:23
+2025-05-09 15:09:23,762 - INFO - [USER_CACHE_HIT] Returning users from cache
+2025-05-09 15:09:24,752 - INFO - [USER_FETCH_TIME] Data fetched in 0.9901 seconds
+2025-05-09 15:09:24,870 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 15:09:24
+2025-05-09 15:09:24,871 - INFO - HTTP Request: GET http://testserver/users/fetch-all "HTTP/1.1 200 OK"
+2025-05-09 15:09:25,029 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=ABC&page_size=ABC "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 15:09:25,036 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=ABC&page_size=10 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 15:09:25,043 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=-1&page_size=-10 "HTTP/1.1 422 Unprocessable Entity"
+2025-05-09 15:09:25,051 - INFO - HTTP Request: GET http://testserver/users/fetch-all?page=1&page_size=10000 "HTTP/1.1 422 Unprocessable Entity"
